@@ -13,15 +13,12 @@ a:link {color: #0000ff;
  }
 
 a:hover { text-decoration: none; 
-	border-bottom: 1px solid #bd0020;
+	
 	-webkit-transition: border-bottom .3s ease-in-out;
 -moz-transition: border-bottom .3s ease-in-out; -o-transition: border-bottom .3s ease-in-out;  
 }
 
-/*html{
-	background-color:black;
-	
-}*/
+
 
 .center{
 	align-content: center
@@ -278,9 +275,14 @@ left:100px;
 	     
 
 
-}
-	
-	
-	
+}  
 
-	
+#bar {
+	top: 600px;
+    left:400px;
+	height: 150px;
+	width: 500px;
+	align-self: center;
+		
+}
+   
